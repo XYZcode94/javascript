@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  /* ========== COLORS ========== */
+  --bg-main: #0b0b0b;
+  --bg-grid: #1a1a1a;
+
+  --snake-head: #22c55e;
+  --snake-body: #16a34a;
+
+  --food-color: #ff3b30;
+
+  --text-main: #ffffff;
+  --text-muted: #9ca3af;
+
+  --border: #2a2a2a;
+
+  /* ========== TYPOGRAPHY ========== */
+  --font-family-main: 'Poppins', sans-serif;
+  --font-family-mono: 'Courier New', monospace;
+
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 20px;
+  --font-size-xl: 28px;
+
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+
+  /* ========== SPACING ========== */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 20px;
+  --space-xl: 32px;
+
+  /* ========== BORDER RADIUS ========== */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  /* ========== SHADOWS ========== */
+  --shadow-sm: 0 2px 5px rgba(0,0,0,0.3);
+  --shadow-md: 0 5px 15px rgba(0,0,0,0.5);
+
+  /* ========== TRANSITIONS ========== */
+  --transition-fast: 0.2s ease;
+  --transition-smooth: 0.4s ease;
+}
+
+html, body{
+    background-color: var(--bg-main);
+    height: 100%;
+    width: 100%;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.infos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--text-main);
+    font-size: var(--font-size-md);
+    background-color: blueviolet;
+    margin: var(--space-md);
+    padding: (var(--space-md));
+}
+
+.highscore{
+    margin: var(--space-sm);
+    border: 1px solid var(--border);
+    border-radius: var(--font-size-xs);
+    padding: var(--space-sm);
+}.score{
+    margin: var(--space-sm);
+    border: 1px solid var(--border);
+    border-radius: var(--font-size-xs);
+    padding: var(--space-sm);
+}.timmer{
+    margin: var(--space-sm);
+    border: 1px solid var(--border);
+    border-radius: var(--font-size-xs);
+    padding: var(--space-sm);
+}
+
+.screen{
+    flex-grow: 1;
+    margin: var(--space-md);
+    padding: (var(--space-md));
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 2px solid var(--border);
+    color: var(--text-main);
+}
+
+.boundary {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(30px, 1fr));
+}
+
+.box{
+    border: 1px solid var(--border);
+}
+
+.fill{
+    background-color: var(--text-main);
+}
