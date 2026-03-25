@@ -1,59 +1,24 @@
-# Snake Game Documentation
+# JavaScript Projects Collection
 
-## What the Project Does
-The Snake Game is a classic arcade game where the player controls a snake that moves around the screen, consuming food and growing longer with each piece eaten. The objective is to avoid colliding with the walls or the snake's own body while trying to collect as much food as possible.
+This repository contains a diverse collection of JavaScript projects that showcase various functionalities and applications. Below is an overview of the significant projects available in this collection:
 
-## Key Features
-- **Simple and Engaging Gameplay**: Easy to understand and addictive.
-- **Responsive Design**: Playable on various devices and screen sizes.
-- **Customizable Settings**: Change game speed, difficulty, and more.
+## Projects Overview
 
-## How to Get Started
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/XYZcode94/js.git
-   cd js
-   ```
-2. Open the index.html file in your web browser to start playing the game.
+### 1. Prem Nagri Restaurant Ordering Platform
+- **Description:** A user-friendly online platform for restaurant ordering, designed to streamline the food ordering process.
+- **Features:**  
+  - Browse the menu with detailed descriptions and images.  
+  - Add items to cart and customize orders.  
+  - User authentication and order history functionalities.  
+  - Admin panel for managing menu items and orders.  
+- **Technologies Used:** HTML, CSS, JavaScript, Node.js, Express, MongoDB.
 
-## How to Play
-- Use the arrow keys on your keyboard to control the direction of the snake.
-- Try to eat the food items that appear on the screen.
-- Avoid hitting the walls or running into the snake's own body.
-- The game ends when you collide with an obstacle.
+### 2. Snake Game
+- **Description:** A classic Snake game implementation in JavaScript that offers players an engaging gaming experience.
+- **Features:**  
+  - Simple and intuitive controls (using arrow keys).  
+  - Score tracking with a leaderboard.  
+  - Responsive design that adapts to different screen sizes.
+- **Technologies Used:** HTML, CSS, JavaScript.
 
-## Browser Support
-The Snake Game is supported on the latest versions of:
-- Chrome
-- Firefox
-- Safari
-- Edge
-
-## Project Structure
-```
-/js
-    /assets             # Images, sounds, and other assets
-    /src                # Game logic and implementation
-    index.html         # Main entry point for the game
-    README.md          # Project documentation
-```
-
-## Contribution Guidelines
-1. Fork the project.
-2. Create your feature branch:
-   ```bash
-   git checkout -b feature/YourFeature
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m 'Add some feature'
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature/YourFeature
-   ```
-5. Open a pull request detailing your changes.
-
----
-
-Feel free to reach out for any questions or suggestions!
+Feel free to explore each project, contribute, or try them out locally!
